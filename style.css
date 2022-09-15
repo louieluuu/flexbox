@@ -25,12 +25,19 @@ body {
     flex-direction: column;
 }
 
+/********align1*******/
+.align1 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+
 /*******header********/
 .header {
     display: flex;
     background-color: #1f2937;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .logo {
@@ -49,8 +56,6 @@ body {
 .hero {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .hero-text {
@@ -129,7 +134,7 @@ body {
 }
 
 .quoter {
-    text-align: right;
+    display
     font-weight: 700;
     font-size: 20px;
 }

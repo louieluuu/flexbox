@@ -81,6 +81,10 @@ body {
     gap: 12px;
 }
 
+.right img {
+    height: 200px;
+}
+
 /******* hero2 ********/
 .title {
     display: flex;

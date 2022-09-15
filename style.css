@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*******adjusting defaults********/
 * {
     font-family: Roboto;
 }
@@ -13,11 +14,18 @@ ul {
     list-style: none;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
 body {
+    margin: 0; /* idk when this became necessary... but it is now */
+               /* else there's a white border around website lol */
     display: flex;
     flex-direction: column;
 }
 
+/*******header********/
 .header {
     display: flex;
     background-color: #1f2937;
@@ -35,4 +43,120 @@ body {
     display: flex;
     font-size: 18px;
     gap: 24px;
+}
+
+/********hero*********/
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    color:#e5e7eb
+}
+
+.signup {
+    text-align: center;
+    width: 125px;
+    padding: 4px 20px;
+    border-radius: 5px;
+    border: #1f2937;
+    color: #f9faf8;
+    font-weight: 500;
+    background-color: #3882f6;
+}
+
+.left {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+/******* hero2 ********/
+.title {
+    display: flex;
+    justify-content: center;
+    color: #1f2937
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.player {
+    width: 200px;
+    height: auto;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+
+.hero2-subtext {
+    text-align: center;
+    width: 200px;
+}
+
+
+/******* hero3 ********/
+.hero3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    width: 1000px;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+
+/******* hero4 ********/
+.hero4 {
+    background-color: #3882f6;
+    display: flex;
+}
+
+.hero4-title {
+    color: #f9faf8;
+}
+
+.hero4-subtext {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.hero4 .signup {
+    border: 2px solid #e5e7eb;
+    height: 30px;
+    font-size: 18px;
+}
+
+/******* footer ********/
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color:#e5e7eb;
+    font-size: 18px;
 }
